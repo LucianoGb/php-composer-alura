@@ -1,0 +1,22 @@
+{
+    "name": "lucianogb/buscador-cursos",
+    "description": "projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Luciano Gouveia",
+            "email": "ljdgb2012@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dom-crawler": "^5.2",
+        "symfony/css-selector": "^5.2"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
